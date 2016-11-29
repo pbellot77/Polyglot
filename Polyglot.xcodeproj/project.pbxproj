@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA5957F91DED272F007F681C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5957F81DED272F007F681C /* AppDelegate.swift */; };
+		BA5957FB1DED272F007F681C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5957FA1DED272F007F681C /* ViewController.swift */; };
+		BA5957FE1DED272F007F681C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5957FC1DED272F007F681C /* Main.storyboard */; };
+		BA5958001DED272F007F681C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5957FF1DED272F007F681C /* Assets.xcassets */; };
+		BA5958031DED272F007F681C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5958011DED272F007F681C /* LaunchScreen.storyboard */; };
+		BA59580E1DED272F007F681C /* PolyglotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59580D1DED272F007F681C /* PolyglotTests.swift */; };
+		BA5958191DED272F007F681C /* PolyglotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5958181DED272F007F681C /* PolyglotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA59580A1DED272F007F681C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5957ED1DED272E007F681C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5957F41DED272E007F681C;
+			remoteInfo = Polyglot;
+		};
+		BA5958151DED272F007F681C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5957ED1DED272E007F681C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5957F41DED272E007F681C;
+			remoteInfo = Polyglot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA5957F51DED272F007F681C /* Polyglot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polyglot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5957F81DED272F007F681C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA5957FA1DED272F007F681C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA5957FD1DED272F007F681C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA5957FF1DED272F007F681C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA5958021DED272F007F681C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA5958041DED272F007F681C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5958091DED272F007F681C /* PolyglotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyglotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA59580D1DED272F007F681C /* PolyglotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyglotTests.swift; sourceTree = "<group>"; };
+		BA59580F1DED272F007F681C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5958141DED272F007F681C /* PolyglotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyglotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5958181DED272F007F681C /* PolyglotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyglotUITests.swift; sourceTree = "<group>"; };
+		BA59581A1DED272F007F681C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5957F21DED272E007F681C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5958061DED272F007F681C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5958111DED272F007F681C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5957EC1DED272E007F681C = {
+			isa = PBXGroup;
+			children = (
+				BA5957F71DED272F007F681C /* Polyglot */,
+				BA59580C1DED272F007F681C /* PolyglotTests */,
+				BA5958171DED272F007F681C /* PolyglotUITests */,
+				BA5957F61DED272F007F681C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5957F61DED272F007F681C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5957F51DED272F007F681C /* Polyglot.app */,
+				BA5958091DED272F007F681C /* PolyglotTests.xctest */,
+				BA5958141DED272F007F681C /* PolyglotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5957F71DED272F007F681C /* Polyglot */ = {
+			isa = PBXGroup;
+			children = (
+				BA5957F81DED272F007F681C /* AppDelegate.swift */,
+				BA5957FA1DED272F007F681C /* ViewController.swift */,
+				BA5957FC1DED272F007F681C /* Main.storyboard */,
+				BA5957FF1DED272F007F681C /* Assets.xcassets */,
+				BA5958011DED272F007F681C /* LaunchScreen.storyboard */,
+				BA5958041DED272F007F681C /* Info.plist */,
+			);
+			path = Polyglot;
+			sourceTree = "<group>";
+		};
+		BA59580C1DED272F007F681C /* PolyglotTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA59580D1DED272F007F681C /* PolyglotTests.swift */,
+				BA59580F1DED272F007F681C /* Info.plist */,
+			);
+			path = PolyglotTests;
+			sourceTree = "<group>";
+		};
+		BA5958171DED272F007F681C /* PolyglotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5958181DED272F007F681C /* PolyglotUITests.swift */,
+				BA59581A1DED272F007F681C /* Info.plist */,
+			);
+			path = PolyglotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5957F41DED272E007F681C /* Polyglot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA59581D1DED272F007F681C /* Build configuration list for PBXNativeTarget "Polyglot" */;
+			buildPhases = (
+				BA5957F11DED272E007F681C /* Sources */,
+				BA5957F21DED272E007F681C /* Frameworks */,
+				BA5957F31DED272E007F681C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyglot;
+			productName = Polyglot;
+			productReference = BA5957F51DED272F007F681C /* Polyglot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5958081DED272F007F681C /* PolyglotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5958201DED272F007F681C /* Build configuration list for PBXNativeTarget "PolyglotTests" */;
+			buildPhases = (
+				BA5958051DED272F007F681C /* Sources */,
+				BA5958061DED272F007F681C /* Frameworks */,
+				BA5958071DED272F007F681C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA59580B1DED272F007F681C /* PBXTargetDependency */,
+			);
+			name = PolyglotTests;
+			productName = PolyglotTests;
+			productReference = BA5958091DED272F007F681C /* PolyglotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA5958131DED272F007F681C /* PolyglotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5958231DED272F007F681C /* Build configuration list for PBXNativeTarget "PolyglotUITests" */;
+			buildPhases = (
+				BA5958101DED272F007F681C /* Sources */,
+				BA5958111DED272F007F681C /* Frameworks */,
+				BA5958121DED272F007F681C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5958161DED272F007F681C /* PBXTargetDependency */,
+			);
+			name = PolyglotUITests;
+			productName = PolyglotUITests;
+			productReference = BA5958141DED272F007F681C /* PolyglotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA5957ED1DED272E007F681C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Bell OS, LLC";
+				TargetAttributes = {
+					BA5957F41DED272E007F681C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+					};
+					BA5958081DED272F007F681C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA5957F41DED272E007F681C;
+					};
+					BA5958131DED272F007F681C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA5957F41DED272E007F681C;
+					};
+				};
+			};
+			buildConfigurationList = BA5957F01DED272E007F681C /* Build configuration list for PBXProject "Polyglot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA5957EC1DED272E007F681C;
+			productRefGroup = BA5957F61DED272F007F681C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5957F41DED272E007F681C /* Polyglot */,
+				BA5958081DED272F007F681C /* PolyglotTests */,
+				BA5958131DED272F007F681C /* PolyglotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5957F31DED272E007F681C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5958031DED272F007F681C /* LaunchScreen.storyboard in Resources */,
+				BA5958001DED272F007F681C /* Assets.xcassets in Resources */,
+				BA5957FE1DED272F007F681C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5958071DED272F007F681C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5958121DED272F007F681C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5957F11DED272E007F681C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5957FB1DED272F007F681C /* ViewController.swift in Sources */,
+				BA5957F91DED272F007F681C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5958051DED272F007F681C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA59580E1DED272F007F681C /* PolyglotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5958101DED272F007F681C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5958191DED272F007F681C /* PolyglotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA59580B1DED272F007F681C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5957F41DED272E007F681C /* Polyglot */;
+			targetProxy = BA59580A1DED272F007F681C /* PBXContainerItemProxy */;
+		};
+		BA5958161DED272F007F681C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5957F41DED272E007F681C /* Polyglot */;
+			targetProxy = BA5958151DED272F007F681C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA5957FC1DED272F007F681C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5957FD1DED272F007F681C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA5958011DED272F007F681C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5958021DED272F007F681C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA59581B1DED272F007F681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA59581C1DED272F007F681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA59581E1DED272F007F681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = Polyglot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.Polyglot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA59581F1DED272F007F681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = Polyglot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.Polyglot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA5958211DED272F007F681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = PolyglotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.PolyglotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polyglot.app/Polyglot";
+			};
+			name = Debug;
+		};
+		BA5958221DED272F007F681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = PolyglotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.PolyglotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polyglot.app/Polyglot";
+			};
+			name = Release;
+		};
+		BA5958241DED272F007F681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = PolyglotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.PolyglotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Polyglot;
+			};
+			name = Debug;
+		};
+		BA5958251DED272F007F681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = PolyglotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.PolyglotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Polyglot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA5957F01DED272E007F681C /* Build configuration list for PBXProject "Polyglot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA59581B1DED272F007F681C /* Debug */,
+				BA59581C1DED272F007F681C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA59581D1DED272F007F681C /* Build configuration list for PBXNativeTarget "Polyglot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA59581E1DED272F007F681C /* Debug */,
+				BA59581F1DED272F007F681C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA5958201DED272F007F681C /* Build configuration list for PBXNativeTarget "PolyglotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5958211DED272F007F681C /* Debug */,
+				BA5958221DED272F007F681C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA5958231DED272F007F681C /* Build configuration list for PBXNativeTarget "PolyglotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5958241DED272F007F681C /* Debug */,
+				BA5958251DED272F007F681C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA5957ED1DED272E007F681C /* Project object */;
+}
