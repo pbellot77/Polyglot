@@ -82,7 +82,9 @@
 				BA5958171DED272F007F681C /* PolyglotUITests */,
 				BA5957F61DED272F007F681C /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		BA5957F61DED272F007F681C /* Products */ = {
 			isa = PBXGroup;
